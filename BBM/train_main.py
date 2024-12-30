@@ -64,7 +64,6 @@ class TrainerArgs:
     max_iters: Optional[int] = None
     eval_delta: int = 5
     log_norms: bool = False
-    log_probes: bool = False
     num_data_workers: int = 24
     save_dir: Optional[str] = None
     fine_grid_log: int = 0

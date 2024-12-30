@@ -73,6 +73,6 @@ steps_list.sort()
 
 results = {"steps_list":steps_list, "norms_list":norms_list}
 
-with open("/data/tianyu_guo/birth/gens/final/dynamics_massive.pkl", "wb") as f:
+with open("./gens/final/dynamics_massive.pkl", "wb") as f:
     pickle.dump(results, f)
 
